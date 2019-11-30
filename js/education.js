@@ -17,7 +17,7 @@ var m_leave = function (d) {
     map_tooltip
       .style("opacity", 0)
       d3.select("#BS").transition().duration(500)
-      .attr("xlink:href", "/data/ASU.png")
+      .attr("xlink:href", "/resume/data/ASU.png")
       .attr("x", "52")
       .attr("y", "12")
       .attr("width", "100")
