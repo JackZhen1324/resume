@@ -54,7 +54,7 @@ map_tooltip5
 
 
 svg2.append("image")
-.attr("xlink:href", "/data/classfinder.png")
+.attr("xlink:href", "/resume/data/classfinder.png")
 .attr("x", "40")
 .attr("y", "10")
 .attr("width", "100")

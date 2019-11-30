@@ -33,7 +33,7 @@ var m_enter = function (d) {
     .transition().duration(500)
     .style("opacity", 1.0) 
 
-    .attr("xlink:href", "/data/bs.png")
+    .attr("xlink:href", "/resume/data/bs.png")
     .attr("width", "55")
     .attr("height", "55")
     .attr("x", "74")
@@ -45,7 +45,7 @@ var mousemove = function (d) {
     .transition().duration(500)
     .style("opacity", 1.0) 
 
-    .attr("xlink:href", "/data/bs.png")
+    .attr("xlink:href", "/resume/data/bs.png")
     .attr("width", "55")
     .attr("height", "55")
     .attr("x", "74")
@@ -84,7 +84,7 @@ map_tooltip
       .style("opacity", 0)
 
       d3.select("#MS").transition().duration(500)
-      .attr("xlink:href", "/data/ASU.png")
+      .attr("xlink:href", "/resume/data/ASU.png")
       .attr("x", "52")
       .attr("y", "175")
       .attr("width", "100")
@@ -99,7 +99,7 @@ var m_enter2 = function (d) {
     .transition().duration(500)
     .style("opacity", 1.0) 
 
-    .attr("xlink:href", "/data/ms.png")
+    .attr("xlink:href", "/resume/data/ms.png")
     .attr("width", "55")
     .attr("height", "55")
     .attr("x", "74")
@@ -176,7 +176,7 @@ g1.on("mouseover", m_enter)
 
   g1.append("image")
   .attr("id","BS")
-  .attr("xlink:href", "/data/ASU.png")
+  .attr("xlink:href", "/resume/data/ASU.png")
   .attr("x", "52")
   .attr("y", "12")
   .attr("width", "100")
@@ -238,7 +238,7 @@ g1.on("mouseover", m_enter)
   ;
 
   g2.append("image")
-  .attr("xlink:href", "/data/ASU.png")
+  .attr("xlink:href", "/resume/data/ASU.png")
   .attr("id","MS")
   .attr("x", "52")
   .attr("y", "172")
